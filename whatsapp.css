@@ -1,0 +1,421 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-color: white;
+}
+.container
+{
+	background-color:rgb(18 140 126);
+	height: 90px;
+	width: 100%;
+	    position: fixed;
+	    z-index: 1;
+}
+.container img{
+	float: left;
+	margin-top: 26px;
+    margin-left: 160px;
+    transform: scale(1.2);
+	 }
+.menu
+{
+	float: right;
+	margin-top: 5px;
+	margin-right: 65px;
+}
+.menu ul
+{
+	list-style: none;
+	margin-right: 0px;
+}
+.menu ul li
+{
+	display: inline;
+	padding: 30px;
+	line-height: 80px;
+}
+.menu ul li a
+{
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Spline Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.menu ul  select option{
+	margin-right: 20px;
+	list-style: none;
+	color: red;
+	font-size: 25px;
+
+}
+.bodu{
+	position: absolute;
+	top: 69%;
+	left: 36%;
+	transform: translate(-50%,-50%);
+	
+}
+.bodu article .hea
+{
+	font-size: 32.5px;
+	font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Spline Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.bodu article  .middle{
+	font-size: 18.1px;
+	/*opacity: 0.9;*/
+}
+.bodu article  .highl{
+	font-size: 16.5px;
+	opacity: 0.7;
+}
+.bodu .linl ul li {
+	list-style: none;
+	margin-top: 12px;
+
+}
+.bodu .linl ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: rgb(28 179 155);
+	font-size: 19px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Spline Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+	padding: 10px;
+
+}
+.bodu .linl ul li i {
+	color: rgb(28 179 155);
+}
+
+.slider img {
+	position: absolute;
+	top: 73%;
+	left: 69%;
+	transform: translate(-50%,-50%);
+	/*border: 10px solid blanchedalmond;*/
+	border-radius: 15px;
+
+}
+.center{
+	position: absolute;
+    top: 200%;
+    left: 23.7%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(216 232 234);
+    height: 840px;
+    width: 634px;
+    color: rgb(2 2 2);
+    text-align: center;
+}
+.center h1{
+	font-size: 34px;
+	margin-top: 10%;
+}
+.center .heding
+{
+ font-size: 18px;
+ margin-top: 6%;
+}
+.center .last
+{
+	font-size: 18px;
+	margin-top: 6%;
+}
+.center img{
+	margin-top: 20.3%;
+  border-radius: 15px;
+   transform: scale(1.3);
+}
+.side{
+	position: relative;
+    top: 1192px; /*2190* web page show */
+
+    left:75.2%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(234 240 241);;
+    height: 839px;
+    width:  680px;
+  color: black; 
+    text-align: center;
+   margin-right: 1px;
+}
+.side .nat{
+	font-size: 18px;
+	position: absolute ;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: rgb(94, 94, 94); 	
+}
+.side .default{
+	font-size: 35px;
+	position: absolute ;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+	.side p{
+	font-size: 12px;
+	position: absolute ;
+	top: 67%;
+	left: 24%;
+	transform: translate(-50%,-50%);
+	transform: scale(1.5);
+
+	} 
+	.side .circle
+	{
+	background-color:rgb(119 215 200);
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		position: absolute;
+		top: 26%;
+		left: 46%;
+		transform: translate(-50%,-50%);
+	}
+.bouncy{
+			position: absolute;
+			top: 163%;
+    left: 73%;
+			transform: translate(-50%,50%);
+		}
+		.bouncy .bon {
+			display: flex;
+			border-bottom: 8px solid wheat;
+		}
+	  .bouncy .bon .bocd{
+	  	width: 50px;
+	  	height: 50px;
+	  	background-color: black;
+	  	list-style: none;
+	  	margin: 0 10px;
+	  	border-radius: 50%;
+	  	animation: bouncy 2s linear infinite;
+	  }
+	  @Keyframes bouncy {
+	  	0%{transform: translateY(0);}
+	  	50%{transform: translateY(-140px);}
+	  	100%{transform: translateY(0);}
+	  }
+	 .bon .bocd:nth-child(1){
+	  	animation-delay: 0.2s;
+	  	background-color: orangered;
+	  }
+	  .bon .bocd:nth-child(2){
+	  	animation-delay: 0.6s;
+	  	background-color: skyblue;
+	  }
+	  .bon .bocd:nth-child(3){
+	  	animation-delay: 0.4s;
+	  	background-color: blue;
+	  }
+	   .bon .bocd:nth-child(4){
+	  	animation-delay: 0.8s;
+	  	background-color: gainsboro;
+	  }
+	  .bon .bocd:nth-child(5){
+	  	animation-delay: 0.5s;
+	  	background-color: yellow;
+	  }
+	  .side .circle:hover{
+	  	background-color:black;
+	 }
+	 .foot a{
+	 	position: absolute;
+	 	top: 280%;
+	 	left: 50%;
+	 	transform: translate(-50%,-50%);
+	 	font-size: 16px;
+	 	text-decoration: none;
+	 	border: 2px solid skyblue;
+	 	border-radius: 40px;
+	 	padding: 16px 32px;
+	 	color: rgb(18, 140, 126);
+	  		 }
+	  		 .lastd {
+	  		 	position: absolute;
+	  		 	top: 295%;
+	  		 	width: 100%;
+	  		 	height: 60%;
+	  		 	background-color: rgb(39 52 67);
+	  		 }
+ .lastd p {
+  	position: absolute;
+  	top: 55px;
+  	left: 120px;
+  	font-size: 20px;
+  	color: white;
+  	font-weight: bold;
+  	font-family: bold;
+  }
+
+  .lastd .attr ul {
+  	position: absolute;
+  	top: 110px;
+  	left: 120px;
+
+  }
+  .lastd .attr ul li{
+  	list-style: none;
+  	padding: 5px;
+  }
+  .lastd .attr ul li a{
+  	text-decoration: none;
+  	color: white;
+  	font-size: 19px;
+  }
+  .lastd .lop {
+  	position: absolute;
+  	top: 55px;
+  	left: 400px;
+  	font-size: 18px;
+  	color: white;
+  	font-weight: 3px;
+  	font-family: bold;
+  	font-weight: bold;
+  }
+   .lastd .last .unorder {
+   	position: absolute;
+  	top: 110px;
+  	left: 400px;
+   }
+   .lastd .last .unorder li{
+   	list-style: none;
+  	padding: 5px;
+   }
+   .lastd .last .unorder li a{
+  	text-decoration: none;
+  	color: white;
+  	font-size: 19px;
+  }
+  .lastd .down{
+  	position: absolute;
+  	top: 55px;
+  	left: 650px;
+  	font-size: 18px;
+  	color: white;
+  	font-weight: 3px;
+  	font-family: bold;
+  	font-weight: bold;
+
+  }
+   .lastd .dekho .dekhok {
+   	position: absolute;
+  	top: 110px;
+  	left: 650px;
+   }
+   .lastd .dekho .dekhok li {
+   		list-style: none;
+  	padding: 5px;
+  }
+   .lastd .dekho .dekhok li a{
+   	text-decoration: none;
+  	color: white;
+  	font-size: 20px;
+
+   }
+   .lastd .hoga{
+  	position: absolute;
+  	top: 55px;
+  	left: 945px;
+  	font-size: 18px;
+  	color: white;
+  	font-weight: 3px;
+  	font-family: bold;
+  	font-weight: bold;
+  }
+  .lastd .bshoga .hogabs {
+   	position: absolute;
+  	top: 110px;
+  	left: 945px;
+}
+ .lastd .bshoga .hogabs li {
+   		list-style: none;
+  	padding: 4px;
+  }
+.lastd .bshoga .hogabs li a{
+   	text-decoration: none;
+  	color: white;
+  	font-size: 20px;
+  }
+  .zast{
+  	position: absolute;
+    top: 361.8%;
+    transform: translate(-50%,-50%);
+    height: 14%;
+    width: 202%;
+        background-color: rgb(28 30 33);
+    }
+    .zast .nik {
+    	position: absolute;
+    	top: 50%;
+    	left: 56.4%;
+    	transform: translate(-50%,-50%);
+
+    	font-size: 20px;
+    	color: white;
+    	text-decoration: none;
+    	line-height: 14%;
+
+    }
+    .zast  a{
+    	position: absolute;
+    	top: 50%;
+    	left: 63.2%;
+    	transform: translate(-50%,-50%);
+
+    	font-size: 20px;
+    	color: white;
+    	text-decoration: none;
+    	line-height: 14%;
+     cursor: !important;
+
+    }
+    .zast a:hover{
+    	color: white;
+    	font-size: 23px;
+    	font-family: bold;
+    }
+    .ops  a{
+    	position: absolute;
+    	top: 362%;
+    left: 84.2%;
+    	transform: translate(-50%,-50%);
+
+    	font-size: 17px;
+    	color: white;
+    	text-decoration: none;
+    	line-height: 14%;
+    }
+    .ops a:hover{
+    	color: darkred;
+    	font-family: bold;
+
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> animation</title>
+	<style type="text/css">
+	img{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		border: 15px solid gray;
+		border-radius: 20px;
+	}
+	</style>
+</head>
+<body>
+<img src="lite.jfif" height="400px" width="500px" alt="mobile" id="mobile"> 
+
+</body>
+<script >
+	
+	var images=["lite.jfif","phone whats.jfif","phone.jfif","whats.jfif","dark.jfif"];
+ 		var i=0;
+ 		function slide()
+ 		{
+ 			document.getElementById("mobile").src=images[i];
+ 			if(i<(images.length-1))
+ 			{
+ 				i++;
+ 			}
+ 			else
+ 			{
+ 				i=0;
+ 			}
+ 		} 
+ 		setInterval(slide,3000);
+ 	</script>
+</html>
